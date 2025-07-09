@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView for displaying selected food item -->
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Item: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- TextView for displaying price -->
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Confirm Order Button -->
+    <Button
+        android:id="@+id/confirmOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order" />
+</LinearLayout>
